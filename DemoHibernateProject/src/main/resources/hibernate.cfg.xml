@@ -18,14 +18,9 @@
     <property name="hibernate.hbm2ddl.auto">update</property>
     <property name="hibernate.show_sql">true</property>
     
-    <!--     Hibernate CRUD Operations-->
-    <mapping class="CRUDOperations.Customers"/>
     
-    <!-- 	HQL -->
-	 <mapping class="DemoHQL.Student"/>
     	 
 <!-- 	 HCQL -->
 	 <mapping class="DemoHCQL.Customer"/>
 	</session-factory>
-	
 	</hibernate-configuration>
